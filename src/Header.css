@@ -1,0 +1,21 @@
+.photo {
+    height: 100px;
+    width: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.headerContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgreen;
+    margin-bottom: 20px;
+}
+
+.headerText{
+    font-family: 'Festive', cursive;
+    color: blue;
+    font-size: 50px;
+}

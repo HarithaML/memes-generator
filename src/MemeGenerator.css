@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.image {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+}
+.textBox {
+    margin: 20px;
+    width: 500px;
+
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    width: 100px;
+
+}
+.meme {
+    position: relative;
+
+}
+.top{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-family: impact, monospace;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-family: impact, monospace;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
